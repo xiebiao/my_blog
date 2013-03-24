@@ -91,10 +91,12 @@
 				</p>
 				<?php } // if function_exists... ?>
 				<?php endif; ?>
+
+				<!--  验证码插件 -->
+				<?php do_action('comment_form', $post->ID); ? >
 				<p class="textarea">
 					<textarea name="comment" id="comment" cols="100%" rows="10" tabindex="6"></textarea>
 				</p>
-				<!-- ?php do_action('comment_form', $post->ID); ? -->
 				<p>
 					<input type="submit" name="submit" id="submit" value=""  title="Post Your Comment" alt="Post Your Comment" />
 				</p>
