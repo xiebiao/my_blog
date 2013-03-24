@@ -461,7 +461,7 @@ h2.entrytitle {
 h2.entrytitle a, h2.entrytitle a:visited {
 	padding-bottom: 5px;
 	color: #c7c7c7;
-	font-style: italic;
+/*	font-style: italic;*/
 	font-size: 16px;
 	font-weight: bold;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
