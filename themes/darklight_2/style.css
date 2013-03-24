@@ -10,9 +10,7 @@
 
 * {
 	/*font-family: "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;*/
- 
-        font-family:微软雅黑,Verdana,sans-serif,宋体;/* add by xiaog*/
-
+	font-family: "微软雅黑","Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -28,9 +26,11 @@ body {
 	color: #AAAAAA;
 }
 
+/*
 body,table,input,textarea,select {
         font-family:微软雅黑,Verdana,sans-serif,宋体;
 }  
+*/
 
 img {
 	border: 0;
@@ -48,7 +48,7 @@ a:hover {
 }
 h1, h2, h3, h4 {
 	font-weight: bold;
-	font-family:  Arial, "Trebuchet MS", "Lucida Grande", verdana, helvetica, sans-serif;
+/*	font-family:  Arial, "Trebuchet MS", "Lucida Grande", verdana, helvetica, sans-serif;*/
 }
 h2 {
 	font-size: 20px;
