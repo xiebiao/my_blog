@@ -1,4 +1,4 @@
 my_blog
 =======
 
-blog
+Wordpress
